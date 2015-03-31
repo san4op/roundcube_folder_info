@@ -1,0 +1,18 @@
+<?php
+##
+## Example configuration file
+##
+
+// custom messages for folders
+$config['folder_info_messages'] = array(
+   'Folder 1' => 'Messages will be deleted after {} {}.',
+   'Folder 2' => 'Messages will be deleted after {} days.'
+);
+
+// arguments for messages
+$config['folder_info_messages_args'] = array(
+  'Folder 1' => array(30, 'days'),
+  'Folder 2' => 14
+);
+
+?>
