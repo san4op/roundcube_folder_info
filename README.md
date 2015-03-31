@@ -21,3 +21,8 @@ $rcmail_config['folder_info_messages_args'] = array(
   'Folder 2' => 14
 );
 ```
+
+Translation
+-----------
+
+https://www.transifex.com/projects/p/roundcube-folder-info-plugin/resource/folder-info/
