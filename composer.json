@@ -2,14 +2,15 @@
     "name": "san4op/folder_info",
     "type": "roundcube-plugin",
     "description": "Plugin to show information message above the messages list",
-    "homepage": "http://github.com/San4oP/folder_info",
+    "keywords": ["folder","information","notification"],
+    "homepage": "http://github.com/san4op/folder_info",
     "license": "GPL-3.0+",
     "version": "1.0",
     "authors": [
         {
             "name": "Alexander Pushkin",
             "email": "san4op@gmail.com",
-            "homepage": "http://github.com/San4oP/",
+            "homepage": "http://github.com/san4op/",
             "role": "Developer"
         }
     ],
