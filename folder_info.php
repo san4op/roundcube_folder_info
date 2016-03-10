@@ -4,12 +4,13 @@
  *
  * Plugin to show information message above the messages list
  *
- * @date 2015-03-31
- * @version 1.0
+ * @date 2016-03-10
+ * @version 1.0.1
  * @author Alexander Pushkin
- * @url https://github.com/San4oP/folder_info
+ * @url https://github.com/san4op/folder_info
  * @licence GNU GPLv3
  */
+
 class folder_info extends rcube_plugin
 {
 	public $task = 'mail';
@@ -31,7 +32,7 @@ class folder_info extends rcube_plugin
 
 	function add_info_message($data)
 	{
-		$data['content'] = '<div id="folder_info"></div>'.$data['content'];
+		$data['content'] = '<div class="folder_info"><span></span></div>'.$data['content'];
 
 		return $data;
 	}

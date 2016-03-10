@@ -1,7 +1,7 @@
 folder_info
 ==========
 
-Roundcube Webmail Folder Info 1.0
+Roundcube Webmail Folder Info
 
 Plugin to show information message above the messages list.
 

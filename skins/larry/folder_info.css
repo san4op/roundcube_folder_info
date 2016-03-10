@@ -1,5 +1,13 @@
-#folder_info {
+/**
+ * Folder Info plugin styles
+ */
+
+.folder_info {
   display: none;
+}
+
+.folder_info span {
+  display: block;
   text-align: center;
   background-color: #F9EDBE;
   padding: 4px;
