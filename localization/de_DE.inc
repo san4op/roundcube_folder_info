@@ -1,7 +1,6 @@
 ﻿<?php
 
 $labels = array();
-$labels['trash_message'] = 'Buchstaben, die in den Warenkorb über {} Tage sind, werden automatisch gelöscht.';
-$labels['junk_message'] = 'Mail-Nachrichten die sich im Spam-Ordner mehr als {} Tage befinden werden automatisch gelöscht.';
-
+$labels['trash_message'] = 'E-Mails im Papierkorb werden nach {} Tagen automatisch gelöscht.';
+$labels['junk_message'] = 'E-Mails im Spam-Ordner werden nach {} Tagen automatisch gelöscht.';
 ?>
