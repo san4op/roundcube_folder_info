@@ -1,16 +1,12 @@
-folder_info
-==========
-
 Roundcube Webmail Folder Info
+==========
 
 Plugin to show information message above the messages list.
 
 Configuration Options
 ---------------------
 
-Set the following options directly in Roundcube's config file:
-
-Example:
+Set the following options directly in Roundcube's config file (example):
 ```php
 $rcmail_config['folder_info_messages'] = array(
    'Folder 1' => 'Messages will be deleted after {} {}.',
@@ -25,4 +21,4 @@ $rcmail_config['folder_info_messages_args'] = array(
 Translation
 -----------
 
-https://www.transifex.com/projects/p/roundcube-folder-info-plugin/resource/folder-info/
+https://www.transifex.com/san4op/roundcube-folder-info-plugin/
