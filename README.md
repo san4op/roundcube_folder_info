@@ -1,4 +1,4 @@
-Roundcube Webmail Folder Info
+Folder Info (Roundcube Webmail Plugin)
 ==========
 Plugin to show information message above the messages list.
 
@@ -18,7 +18,7 @@ $rcmail_config['folder_info_messages_args'] = array(
 
 Translation
 -----------
-https://www.transifex.com/san4op/roundcube-folder-info-plugin/
+You can help me to translate plugin [here](https://www.transifex.com/san4op/roundcube-folder-info-plugin/).
 
 Donate
 ------
