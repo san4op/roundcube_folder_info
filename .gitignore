@@ -1,3 +1,5 @@
 .DS_Store
-config.inc.php
-folder_info.code-workspace
+/config.inc.php
+.idea/
+*.code-workspace
+*~
