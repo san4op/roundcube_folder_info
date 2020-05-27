@@ -5,7 +5,7 @@
  * Plugin to show information message above the messages list
  *
  * @date 2016-03-10
- * @version 1.0.1
+ * @version 1.0.2
  * @author Alexander Pushkin
  * @url https://github.com/san4op/folder_info
  * @licence GNU GPLv3
