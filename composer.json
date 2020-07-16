@@ -1,16 +1,16 @@
 {
-    "name": "san4op/folder_info",
+    "name": "texxasrulez/folder_info",
     "type": "roundcube-plugin",
     "description": "Plugin to show information message above the messages list",
     "keywords": ["folder","information","notification"],
-    "homepage": "https://github.com/san4op/folder_info",
+    "homepage": "https://github.com/texxasrulez/folder_info",
     "license": "GPL-3.0+",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
         {
-            "name": "Alexander Pushkin",
-            "email": "san4op@icloud.com",
-            "homepage": "https://github.com/san4op/",
+            "name": "Gene Hawkins",
+            "email": "texxasrulez@yahoo.com",
+            "homepage": "https://github.com/texxasrulez/",
             "role": "Developer"
         }
     ],
