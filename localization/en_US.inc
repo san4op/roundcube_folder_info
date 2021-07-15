@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 $labels = array();
 $labels['trash_message'] = 'Messages that have been in Trash more than {} days will be automatically deleted.';
