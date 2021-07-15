@@ -19,28 +19,28 @@ var update_message = function(folder) {
     }
     return message;
   };
-  switch( folder ) {
-    case rcmail.env.trash_mailbox:
-      $('.folder_info > span').html(formating(rcmail.gettext('trash_message', 'folder_info')));
-      $('.folder_info').show();
-      $('.messagelist thead th:first-child').css('border-radius', '0');
-      break;
-    case rcmail.env.junk_mailbox:
-      $('.folder_info > span').html(formating(rcmail.gettext('junk_message', 'folder_info')));
-      $('.folder_info').show();
-      $('.messagelist thead th:first-child').css('border-radius', '0');
-      break;
-    default:
-      if( folder in rcmail.env.folder_info_messages ) {
-        $('.folder_info > span').html(formating(rcmail.env.folder_info_messages[folder]));
+  if( folder in rcmail.env.folder_info_messages ) {
+    $('.folder_info > span').html(formating(rcmail.env.folder_info_messages[folder]));
+    $('.folder_info').show();
+    $('.messagelist thead th:first-child').css('border-radius', '0');
+  } else {
+    switch( folder ) {
+      case rcmail.env.trash_mailbox:
+        $('.folder_info > span').html(formating(rcmail.gettext('trash_message', 'folder_info')));
         $('.folder_info').show();
         $('.messagelist thead th:first-child').css('border-radius', '0');
-      } else {
+        break;
+      case rcmail.env.junk_mailbox:
+        $('.folder_info > span').html(formating(rcmail.gettext('junk_message', 'folder_info')));
+        $('.folder_info').show();
+        $('.messagelist thead th:first-child').css('border-radius', '0');
+        break;
+      default:
         $('.folder_info > span').html('');
         $('.folder_info').hide();
         $('.messagelist thead th:first-child').css('border-radius', '');
-      }
-      break;
+        break;
+    }
   }
 };
 
