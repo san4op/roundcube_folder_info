@@ -12,3 +12,15 @@
   background-color: #d9f3ff;
   padding: 4px;
 }
+
+.folder_info span p {
+  margin: 0;
+}
+
+.folder_info span p + p {
+  margin-top: .5rem;
+}
+
+#rcmfd_folder_info_message {
+  font-family: monospace;
+}
