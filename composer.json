@@ -4,7 +4,11 @@
     "description": "Plugin to show information message above the messages list",
     "keywords": ["folder","information","notification"],
     "homepage": "https://github.com/texxasrulez/folder_info",
-    "license": "GPL-3.0",
+  "support": {
+    "issues": "https://github.com/texxasrulez/folder_info/issues",
+    "source": "https://github.com/texxasrulez/folder_info"
+  },
+  "license": "GPL-3.0",
     "version": "1.0.2",
     "authors": [
         {
