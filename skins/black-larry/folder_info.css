@@ -7,13 +7,10 @@
 }
 
 .folder_info span {
+  color: #000;
   font-weight: bold;
   display: block;
   text-align: center;
   background-color: #F9EDBE;
   padding: 4px;
-}
-
-#mainscreencontent.list .folder_info span, #mainscreencontent.desktop .folder_info span {
-  border-radius: 4px 4px 0 0;
 }

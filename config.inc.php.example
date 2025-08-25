@@ -3,6 +3,12 @@
 ## Example configuration file
 ##
 
+// Specifics  
+/*
+*Using Dovecot*  
+Replace 'Folder 1' and 'Folder 2' with 'INBOX.Trash' and 'INBOX.Junk'
+*/
+
 // custom messages for folders
 $config['folder_info_messages'] = array(
    'Folder 1' => 'Messages will be deleted after {} {}.',
