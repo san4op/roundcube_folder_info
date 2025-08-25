@@ -19,7 +19,3 @@ $rcmail_config['folder_info_messages_args'] = array(
 Translation
 -----------
 You can help me to translate plugin [here](https://www.transifex.com/san4op/roundcube-folder-info-plugin/).
-
-Donate
-------
-You can make a donation [here](http://yasobe.ru/na/roundcube_folder_info), this will help motivate me to continue my work.
