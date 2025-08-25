@@ -12,5 +12,22 @@
   text-align: center;
   background-color: #F9EDBE;
   padding: 4px;
-  border-radius: 4px 0 0 0;
+}
+
+.folder_info span p {
+  margin: 0;
+}
+
+.folder_info span p + p {
+  margin-top: .5em;
+}
+
+#mainscreencontent.list .folder_info span, #mainscreencontent.desktop .folder_info span {
+  border-radius: 4px 4px 0 0;
+}
+
+#rcmfd_folder_info_message {
+  width: 99%;
+  min-width: 390px;
+  font-family: monospace;
 }

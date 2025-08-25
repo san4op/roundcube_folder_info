@@ -13,3 +13,21 @@
   background-color: #F9EDBE;
   padding: 2px;
 }
+
+.folder_info span p {
+  margin: 0;
+}
+
+.folder_info span p + p {
+  margin-top: .5em;
+}
+
+.folder_info_fixed {
+  z-index: 1;
+}
+
+#rcmfd_folder_info_message {
+  width: 99%;
+  min-width: 390px;
+  font-family: monospace;
+}
